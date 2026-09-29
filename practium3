@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TechSphere - Job Application Form</title>
+</head>
+
+<body>
+
+    <header>
+        <h1><font color="darkblue">TechSphere</font></h1>
+        <h2><font color="darkblue">Job Application Form</font></h2>
+
+        <p>
+            End-to-End IT Consulting & Enterprise Solutions
+        </p>
+
+        <hr>
+    </header>
+
+
+    <main>
+
+        <form action="#" method="post" enctype="multipart/form-data">
+
+            
+            <fieldset>
+
+                <legend><font color="darkblue">Personal Information</font></legend>
+
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" name="fname" required>
+                <br><br>
+
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="lname" required>
+                <br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br><br>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone">
+                <br><br>
+
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob">
+                <br><br>
+
+                <label>Gender:</label>
+
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label>
+
+            </fieldset>
+
+            <br>
+
+
+            
+            <fieldset>
+
+                <legend><font color="darkblue">Address</font></legend>
+
+                <label for="address">Address:</label>
+                <br>
+                <textarea id="address" name="address" rows="4" cols="40"></textarea>
+                <br><br>
+
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city">
+                <br><br>
+
+                <label for="state">State:</label>
+                <select id="state" name="state">
+
+                    <option value="">-- Select State --</option>
+                    <option value="maharashtra">Maharashtra</option>
+                    <option value="gujarat">Gujarat</option>
+                    <option value="madhya-pradesh">Madhya Pradesh</option>
+                    <option value="delhi">Delhi</option>
+                    <option value="karnataka">Karnataka</option>
+                    <option value="tamil-nadu">Tamil Nadu</option>
+                    <option value="telangana">Telangana</option>
+                    <option value="other">Other</option>
+
+                </select>
+
+                <br><br>
+
+                <label for="pincode">PIN Code:</label>
+                <input type="number" id="pincode" name="pincode">
+
+            </fieldset>
+
+            <br>
+
+
+            
+            <fieldset>
+
+                <legend><font color="darkblue">Job Information</font></legend>
+
+                <label for="position">Position Applying For:</label>
+
+                <select id="position" name="position">
+
+                    <option value="">-- Select Position --</option>
+                    <option value="software-developer">Software Developer</option>
+                    <option value="web-developer">Web Developer</option>
+                    <option value="data-analyst">Data Analyst</option>
+                    <option value="cloud-engineer">Cloud Engineer</option>
+                    <option value="it-consultant">IT Consultant</option>
+                    <option value="system-administrator">
+                        System Administrator
+                    </option>
+
+                </select>
+
+                <br><br>
+
+
+                <label for="experience">Years of Experience:</label>
+                <input type="number" id="experience" name="experience" min="0"max="50">
+
+                <br><br>
+
+
+                <label for="joining">Available Joining Date:</label>
+                <input type="date" id="joining" name="joining">
+
+                <br><br>
+
+
+                <label for="skills">Primary Skill:</label>
+
+                <input list="skill-list" id="skills" name="skills">
+
+                <datalist id="skill-list">
+                    <option value="HTML">
+                    <option value="CSS">
+                    <option value="JavaScript">
+                    <option value="Python">
+                    <option value="Java">
+                    <option value="React">
+                    <option value="Cloud Computing">
+                    <option value="Data Analytics">
+                </datalist>
+
+            </fieldset>
+
+            <br>
+
+
+            
+            <fieldset>
+
+                <legend><font color="darkblue">Technical Skills</font></legend>
+
+                <p>Select your skills:</p>
+
+                <input type="checkbox" id="html" name="skill" value="html">
+                <label for="html">HTML</label>
+                <br>
+
+                <input type="checkbox" id="css" name="skill" value="css">
+                <label for="css">CSS</label>
+                <br>
+
+                <input type="checkbox" id="javascript" name="skill" value="javascript">
+                <label for="javascript">JavaScript</label>
+                <br>
+
+                <input type="checkbox" id="python" name="skill" value="python">
+                <label for="python">Python</label>
+                <br>
+
+                <input type="checkbox" id="java" name="skill" value="java">
+                <label for="java">Java</label>
+                <br>
+
+                <input type="checkbox" id="cloud" name="skill" value="cloud">
+                <label for="cloud">Cloud Computing</label>
+
+            </fieldset>
+
+            <br>
+
+
+            
+            <fieldset>
+
+                <legend><font color="darkblue">Education</font></legend>
+
+                <label for="qualification">
+                    Highest Qualification:
+                </label>
+
+                <select id="qualification" name="qualification">
+
+                    <option value="">-- Select Qualification --</option>
+                    <option value="10th">10th</option>
+                    <option value="12th">12th</option>
+                    <option value="diploma">Diploma</option>
+                    <option value="bachelor">Bachelor's Degree</option>
+                    <option value="master">Master's Degree</option>
+                    <option value="phd">PhD</option>
+
+                </select>
+
+                <br><br>
+
+                <label for="college">College / University:</label>
+                <input type="text" id="college" name="college">
+
+                <br><br>
+
+                <label for="percentage">Percentage / CGPA:</label>
+                <input type="text" id="percentage" name="percentage">
+
+            </fieldset>
+
+            <br>
+
+
+            
+            <fieldset>
+
+                <legend><font color="darkblue">Resume & Additional Information</font></legend>
+
+                <label for="resume">Upload Resume:</label>
+                <input type="file" id="resume"name="resume" accept=".pdf,.doc,.docx" >
+
+                <br><br>
+
+                <label for="portfolio">Portfolio Website:</label>
+                <input type="url"id="portfolio"name="portfolio"placeholder="https://example.com">
+
+                <br><br>
+
+                <label for="message">
+                    Why do you want to join TechSphere?
+                </label>
+
+                <br>
+
+                <textarea id="message"name="message" rows="6"cols="50" placeholder="Write your answer here...">
+                
+                </textarea>
+
+            </fieldset>
+
+            <br>
+
+
+            
+            <fieldset>
+
+                <legend><font color="darkblue">Work Preference </font></legend>
+
+                <label>Preferred Work Mode:</label>
+
+                <input type="radio" id="office"name="workmode" value="office">
+                <label for="office">Office</label>
+
+                <input type="radio"id="remote"name="workmode"value="remote">
+                <label for="remote">Remote</label>
+
+                <input type="radio"id="hybrid"name="workmode"value="hybrid">
+                <label for="hybrid">Hybrid</label>
+
+                <br><br>
+
+                <label for="salary">Expected Salary:</label>
+                <input type="range"id="salary"name="salary"min="10000"max="200000"step="5000">
+
+            </fieldset>
+
+            <br>
+
+
+            
+            <fieldset>
+
+                <legend><font color="darkblue">Declaration</font></legend>
+
+                <input input="checkbox" id="declaration"name="declaration"required>
+
+                <label for="declaration">
+                    I declare that the information provided by me is
+                    correct and complete.
+                </label>
+
+            </fieldset>
+
+            <br>
+
+
+            
+
+            <input type="submit" value="Submit Application">
+
+            <input type="reset" value="Reset Form">
+
+            <button type="button">
+                Contact TechSphere
+            </button>
+
+        </form>
+
+    </main>
+
+
+    <footer>
+
+        <hr>
+
+        <p>
+            &copy; 2026 TechSphere. All Rights Reserved.
+        </p>
+
+    </footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>TechSphere</title>
+</head>
+<body>
+    <hr>
+
+    <div align="center">
+    <img src="WhatsApp Image 2026-08-23 at 10.39.47 PM.jpeg" width="100%" height="100%" alt="Image cannot be displayed"> 
+    <h1><font color="darkblue"><i><b>TECHSPHERE</b></i></font></h1>
+    <p>End-to-End IT Consulting & Enterprise Solutions</p>
+    </div>
+    
+    <hr>
+
+    <table align="center" width="90%" cellpadding="30">
+        <tr>
+            <td align="center" width="50%"><img src="TechSphere_logo.jpg" width="800" height="800" alt="Image cannot be displayed"></td>
+            <td>
+                 <fieldset>
+                    <legend><h2><i><font color="blue"> Log into TechSphere</font></i></h2></legend>
+                    <forms action="#" method="post">
+                        <label for="username"><b>Username:</b></label>
+                        <input type="text" id="username"  placeholder="Enter your username" size="40" required>
+
+                        <br><br>
+
+                        <label for="password"><b>Password:</b></label>
+                        <input type="password" id="password" name="password" placeholder="Enter your password" size="40" required>
+
+                        <br>
+                        <p><a href="forgotpassword.html">Forgot Password?</a></p>
+
+                        <br>    
+
+                        <input type="submit" value="Log in">
+
+                        <br><br>
+                    
+                        <input type="checkbox" id="remember" name="remember">
+                        <label for="remember">Remember me</label>
+                        <hr color="black">
+                        <div align="center"><p>New user? <a href="http://127.0.0.1:5500/PRACTICUM%203(part2).html">Create an Account</a></p></div>
+                
+                    </forms>
+               </fieldset>
+            </td>
+    
+    </table>
+
+    <br><br>
+
+    <hr>
+
+     <div align="center">
+
+        <p>
+            <a href="contact.html">Contact</a> &nbsp;
+
+            <a href="faq.html">FAQs</a> &nbsp;
+
+            <a href="feedback.html">Feedback</a> &nbsp;
+
+            <a href="blog.html">Blog</a>&nbsp;
+
+            <a href="Customer_Support.html">Customer Support</a> &nbsp;
+
+             <a href="Privacy_Policy.html">Privacy Policy</a> &nbsp;
+
+             <a href="http://127.0.0.1:5500/PRACTICUM%202.html">About Us</a> 
+
+            <br><br>
+             <p> @2026 TechSphere. All rights reserved.</p>
+
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>TechSphere</title>
+</head>
+<body>
+    <hr>
+
+    <div align="center">
+    <img src="WhatsApp Image 2026-08-23 at 10.39.47 PM.jpeg" width="100%" height="100%" alt="Image cannot be displayed"> 
+    <h1><font color="darkblue"><i><b>TECHSPHERE</b></i></font></h1>
+    <p>End-to-End IT Consulting & Enterprise Solutions</p>
+    </div>
+    
+    <hr>
+    <table align="center" width="90%" cellpadding="30">
+        <tr>
+            <td align="center" width="50%"><img src="TechSphere_logo.jpg" width="800" height="800" alt="Image cannot be displayed"></td>
+            <td>
+                <fieldset>
+                    <legend><h2><i><font color="blue">Get started on TechSphere</font></i></h2></legend>
+                    <p> <font color="blue"><i>Sign up to get End-to-End IT Consulting & Enterprise Solutions</i></font></p>
+                    <forms action="#" method="post">
+                            <label for="email"><b>Email:</b></label>
+                            <input type="email" id="email" name="email"  placeholder="Enter your email"  size="40" required>
+                            <p>You may receive notifications from us.</p>
+
+                            <br>
+
+                            <label for="password"><b>Password:</b></label>
+                            <input type="password" id="password" name="password" placeholder="Enter your password" size="40" required>
+
+                            <br><br>
+
+                            <label for="date of birth"><b>Birthday:</b></label>
+                            <input type="date" id="password" name="dob" placeholder="date\month\year" size="40" required>
+
+                            <br><br>
+
+                            <label for="name"><b>Name:</b></label>
+                            <input type="text" id="name" placeholder="Enter your name" size="40" required>
+
+                            <br><br>
+
+                            <label for="username"><b>Username:</b></label>
+                            <input type="text" id="username"  placeholder="Enter your username" size="40" required>
+
+                            <br><br>
+
+                            <p>
+                                People who use our service may have uploaded your contact information to TechSphere.
+                                <a href="#">Learn more.</a>
+                            </p>
+                            <p>
+                               By tapping Submit, you agree to create an account and to TechSphere's
+                               <a href="#">Terms</a>,
+                               <a href="#">Privacy Policy</a> and <a href="#">Cookies Policy</a>.
+                            </p>
+                            <p>
+                                The <a href="#">Privacy Policy</a> describes the ways we can use the information we collect
+                                when you create an account.For example, we use this information to provide,
+                                personalize and improve our products and services.
+                            </p>
+
+                            <input type="submit" value="Submit">
+            
+                    </forms>
+                
+                </fieldset>
+            </td>
+        </tr>
+    </table>
+
+    <br><br>
+    <hr>
+                            
+                        <div align="center">
+                            <footer>
+                                 <a href="http://127.0.0.1:5500/PRACTICUM%202.html">TechSphere</a> &nbsp;
+                                 <a href="http://127.0.0.1:5500/PRACTICUM%202.html">About</a> &nbsp;
+                                 <a href="#">Blog</a> &nbsp;
+                                 <a href="#">Services</a> &nbsp;
+                                 <a href="#">Contact</a> &nbsp; 
+                                 <a href="#">Privacy</a> &nbsp;
+                                 <a href="#">Terms</a> &nbsp;
+                                 <a href="#">Help</a>
+                            </footer>
+
+                            <p>@2026 TechSphere. All rights reserved.</p>
+                     </div>
+</body>
+</html>
